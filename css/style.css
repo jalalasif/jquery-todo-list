@@ -1,7 +1,7 @@
 body {
   font-family: 'Hachi Maru Pop', cursive;
-  background-color: #546e7a;
-  color: #f7f7f7;
+  background-color: #fcf8e8;
+  color: #312c51;
 }
 
 ul{
@@ -12,22 +12,44 @@ ul{
 
 input{
   font-family: 'Hachi Maru Pop', cursive;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fcf8e8;
+  width: 100%%;
+  padding: 10px 10px 16px 16px;
+  box-sizing: border-box;
+  border: none;
+
 }
 
 #container{
-  width: 360px;
+  width: 500px;
+  height: 500px;
   margin: 100px auto;
   box-shadow: 0 0 4px rgba(0,0,0, 0.5);
   text-align: center;
 }
 
 h1{
-  background-color: #214151;
+  background-color: #df7861;
   margin: 0;
   padding:10px 20px;
+  text-transform: uppercase;
 }
 
 .done{
   color: gray;
   text-decoration: line-through;
+}
+
+li{
+  background-color: #d4e2d4;
+  padding: 0 0 0 20px;
+  height: 80px;
+  line-height: 80px;
+}
+
+li:nth-child(2n){
+  background-color: #ecb390;
+
 }
