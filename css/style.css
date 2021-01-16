@@ -16,15 +16,22 @@ input{
   text-align: center;
   background-color: #fcf8e8;
   width: 100%%;
-  padding: 10px 10px 16px 16px;
+  padding: 10px 10px 10px 16px;
   box-sizing: border-box;
   border: none;
-
 }
 
+span{
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+
+input:focus{
+  outline: none;}
+
 #container{
-  width: 500px;
-  height: 500px;
+  width: 50%;
   margin: 100px auto;
   box-shadow: 0 0 4px rgba(0,0,0, 0.5);
   text-align: center;
