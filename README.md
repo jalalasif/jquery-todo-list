@@ -1,5 +1,6 @@
 <h1><center>Todo List using jQuery</center></h1>
 
+<h3>Note: Link to the web app: https://jalalasif.github.io/jquery-todo-list/
 
 This is a simple web app build using HTML5, CSS3, and the jQuery library in JavaScript.
 
